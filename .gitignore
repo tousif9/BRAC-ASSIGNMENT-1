@@ -1,0 +1,96 @@
+2.  Write the Java code for the following:
+2.1              Declare an integer variable. Initialize it with some value of your choice and print it to check the value has been stored properly.
+2.2              Declare and initialize another integer variable. Add this to the first one and print out the result. Verify that the addition has been done correctly.
+2.3              Now print the product and division of the two integer numbers.
+2.4              Repeat exercises 2.1, 2.2, and 2.3 for variables of data type double. Verify your answers.
+2.5              Repeat exercises 2.1, 2.2, and 2.3 for one double data type and one integer datatype. Verify your answers.
+2.6              Repeat exercises 2.1 and 2.2 for variables of data type String. How does the addition operator work for Strings? What if the first variable is an integer and the second is a String and vice versa?
+
+
+2.1 code is 
+
+public class Class1 {
+  public static void main ( String [] args ){
+    int num1 = 10;
+    System.out.println(num1);   
+  }
+}
+
+2.2 code is
+
+public class Class1 {
+  public static void main ( String [] args ){
+    int num1 = 10;
+    int num2 = 5;
+    int addition = num1 + num2;
+    System.out.println(addition);
+  }
+}
+
+
+2.3 code is 
+
+public class Class1 {
+  public static void main ( String [] args ){
+    int num1 = 10;
+    int num2 = 5;
+    int product = num1 * num2;
+    int division = num1 / num2;
+    System.out.println(product);
+    System.out.println(division);
+  }
+}
+
+
+2.4 code is 
+
+public class Class1 {
+  public static void main ( String [] args ){
+    double num1 = 98.78;
+    System.out.println(num1);
+    double num2 = 54.76;
+    double addition = num1 + num2;
+    System.out.println(addition);
+    double product = num1 * num2;
+    double division = num1 / num2;
+    System.out.println(product);
+    System.out.println(division);
+  }
+}
+
+
+2.5 code is 
+
+public class Class1 {
+  public static void main ( String [] args ){
+    double num1 = 67.78;
+    System.out.println(num1);
+    int num2 = 60;
+    double addition = num1 + num2;
+    System.out.println(addition);
+    double product = num1 * num2;
+    double division = num1 / num2;
+    System.out.println(product);
+    System.out.println(division);
+  }
+}
+
+
+2.6 code is 
+
+public class Class1 {
+  public static void main ( String [] args ){
+    String name1 = "Robert ";
+    System.out.println(name1);
+    String name2 = "Lewandowski";
+    String addition = name1 + name2;
+    System.out.println(addition);
+    
+    int num = 10;
+    String word = " Rues";
+    String summation = num + word;
+    System.out.println(summation);
+    
+    
+   }
+}
